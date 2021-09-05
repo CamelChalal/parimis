@@ -1,0 +1,5 @@
+# Mon fichier robots.txt
+user-agent: *
+Allow: /
+
+sitemap: https://www.parimis-cm.000webhostapp.com/sitemap.xml

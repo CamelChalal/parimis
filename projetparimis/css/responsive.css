@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+    /* ---- banner + menu nav ---- */
+
+    
+
+     /* FIN RESPONSIVE MENU */ 
+    
+    #header{
+        height: 20%;
+        
+    }
+    
+    .banner{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        height:auto;
+    
+    }
+    
+    .langue{
+        position: absolute;
+        left: 0;top: 0;
+        margin: 10px;
+    }
+
+    
+    /*RESPONSIVE DU FOOTER*/
+    
+    @media (max-width: 1024px) {
+    
+    
+    footer{
+    /* position: absolute; */
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .logo2 {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    }
+    
+    .bas_page{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    }
+    
+    .bas_page div {
+    margin: 10px 0;
+    }
+    }
+
+    /* FIN DU FOOTER */
+
+    /*css barre de recherche*/
+
+form.search input[type=search] {
+    padding: 10px;
+   font-size: 17px; 
+   border: 1px solid black;
+    float: left; 
+    width: 100%; 
+   background: #f1f1f1;
+ }
+ 
+ /* Style the submit button */
+form.search button {
+   
+   padding: 10px;
+   background:white;
+   color: grey;
+   font-size: 17px;
+   border: 1px solid grey;
+   border-left: none; 
+   cursor: pointer;
+}
+ 
+form.search button:hover {
+   background:black;
+}
+ 
+ /* Clear floats */
+form.search::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+.search{
+     display: flex;
+     position: absolute;
+     right: 60px;
+}
+
+@media screen and (max-width: 960px){
+.search {
+   display: block;
+   }
+}
+
+/* RESPONSIVE POUR LES TAILLES D'ARTICLES */
+
+@media screen and (max-width: 960px){
+    .height100{
+        height: 100vh;
+    }
+}
+
+/* RESPONSIVE SPA */
+
+.title-spa{
+    display: none;
+}
+@media screen and (max-width: 960px){
+    .spa-banner{
+        display: none;
+    }
+    .title-spa{
+        display: block;
+    }
+}
+
+/* RESPONSIVE RESTAURANT */
+
+.title-restaurant{
+    display: none;
+}
+@media screen and (max-width: 960px){
+    .restaurant-banner{
+        display: none;
+    }
+    .title-restaurant{
+        display: block;
+    }
+}
+
+/* RESPONSIVE CHAMBRE */
+
+.title-chambres{
+    display: none;
+}
+@media screen and (max-width: 960px){
+   .chambre-banner{
+        display: none;
+    }
+    .title-chambres{
+        display: block;
+    }
+}

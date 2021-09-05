@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>http://www.mon-domaine.com/index.html</loc>
+        <priority>1</priority>
+    </url>
+    <url>
+        <loc>http://www.mon-domaine.com/services.html</loc>
+    </url>
+    <url>
+        <loc>http://www.mon-domaine.com/partenaires.html</loc>
+    </url>
+    <url>
+        <loc>http://www.mon-domaine.com/contact.html</loc>
+    </url>
+    
+</urlset>

@@ -1,0 +1,275 @@
+/* import FONT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html{scroll-behavior: smooth;}
+img { max-width: 100%; }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open sans";
+}
+
+
+
+
+li{
+    list-style-type: none;
+}
+
+/*#contain{
+    height: 100vh;    
+}*/
+
+/* ---- banner + menu nav ---- */
+
+
+#toplogo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 140px;
+    height: 120px;
+}
+
+#fr{
+    width: 34px;
+    height: 34px;
+}#en{
+    width: 34px;
+    height: 34px;    
+}
+
+
+/* FIN MENU NAV */ 
+/* --------------------------*/
+/* Contenu page d'accueil */
+
+/* INNERFADE */
+
+.innerfade-height{
+    margin: 0;
+    padding: 0;
+    /*margin-bottom: 50px;*/
+}
+.innerfade-height ul{
+    padding: 0;    
+}
+#innerfade {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+#innerfade li {
+    width: 100%;
+    height: 500px;
+}
+#innerfade li img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* CSS des titres */
+
+
+.section-title{                  
+    font-size: 34px;
+    margin-top: 15px;
+    font-weight: 100;
+    position: relative;
+    text-align: center;
+}
+/* .section-title::before{
+    content:"";
+    position: absolute;
+    bottom: 0px;
+    background-color: #e0b130;
+    width: 50px;
+    height: 7px;
+
+} */
+
+/* TITRE + DESCRIPTION HOTEL */
+
+.parimis{
+    color:#e0b130 ;
+}
+.parimis-bold{
+    color:#e0b130;
+    font-weight: 700;
+}
+
+
+
+/* LE RESTAURANT - LES CHAMBRES - LE SPA */
+
+
+.colonne{
+    position: relative;
+    width: 30%;
+    min-height: 200px;
+    text-align: center;
+    padding: 0;
+}
+
+.image{
+    opacity: 1;
+    width: 100%;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.middle{
+    /*transition: 0.5 ease;*/
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.texte{
+    position: relative;
+    background-color:black;
+    font-size: 16px;
+    padding: 16px 32px;
+    cursor: pointer;
+    opacity: 0.5;
+}.texte a{
+    color: black;
+}
+
+.texte > a:hover{
+    opacity: 0.2;
+}
+
+.colonne:hover .image{
+    opacity: 0.3;
+}
+
+.colonne:hover .middle{
+    opacity: 1;  
+}
+
+.colonne:hover a{
+    color:white;
+}
+
+
+
+/*CSS des boutons dans le site*/
+
+.style-button{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+
+.style-button:hover{
+    color: #e0b130;
+    background-color: black;
+    
+}
+
+
+/* FOOTER */ 
+
+/* 
+footer{
+    margin-top: 250px;
+    height: 400px;
+    width: 100%;
+}
+.logo{
+    list-style-type: none;
+    display: flex;
+    width: 400px;
+    margin: auto;
+    margin-top: 15px;    
+}
+
+.facebook, .twitter, .tripadvisor, .pinterest{
+    padding-right: 25px;
+}
+
+.bas_page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.titre{
+    font-size: 1.6em;
+}
+
+.newsletter{
+    margin-left: 40px;   
+}
+#input{
+    width: 280px;
+}
+
+.liens_utiles{
+    margin-right: 80px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 25px;
+}
+#titre3{
+    font-size: 0.9em;
+    
+} */
+
+.
+
+/* CAROUSEL */
+
+.carousel{
+    align-self: center;
+    height: 100%;
+}
+
+.title-style{
+    font-size: 26px;
+}
+
+
+
+
+/* SCROLLBAR */
+
+
+::-webkit-scrollbar{
+    width: 8px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a1a1a1;
+}
+/*::-webkit-scrollbar-thumb:active {
+    background: #ffffff;
+}*/
+::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

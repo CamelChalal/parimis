@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Parimis : Hôtel de luxe 5 étoiles situé à Paris. Chambres de luxe, suites, restaurant 
+    gastronomique, spa - Réservation en ligne">
+    <!--link vers les differents fichier css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../jquery/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="../jquery/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="../jquery/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="../css/index_css.css">
+
+
+    <!--link vers les differents script-->
+    <script src="https://kit.fontawesome.com/d3669e4fd3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="../jquery/jquery-ui-1.12.1/jquery-3.5.1.js"></script>
+    <script src="../jquery/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="../jquery/jquery-ui-1.12.1/jquery.cycle.all.js"></script>
+    <script defer src="../js/index_js.js"></script>
+
+
+    <title>PARIMIS : Gamme de Chambre Confort</title>
+</head>
+
+<body>
+
+
+
+    <!--en-tete site + navbar-->
+
+    <!--HEADER DESKTOP-->
+    <header id="header" class="header__desktop">
+        <div class="banner col-sm-12">
+            <div class="langue">
+                <a href=""><img src="../images/france-circular.png" alt="logo france"></a>
+                <a href=""><img id="logo_ang" src="../images/great-britain-circular.png" alt="logo angleterre" /></a>
+            </div>
+            <div class="logo1">
+                <a href="../html/index.html"><img class="logo01" src="../images/logo/logo_nb_1.gif"
+                        alt="logo de l'hotel"></a>
+            </div>
+            <form class="search">
+                <input type="search" placeholder="Taper votre recherche" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <div class="panier">
+                <a href="panier.html"><i class="fas fa-shopping-basket"></i>Panier</a>
+            </div>
+
+
+        </div>
+
+        <!--NAVBAR-->
+        <nav class="menu__header">
+
+            <div class="nav-links">
+                <ul class="menu">
+                    <li class="menu_item">
+                        <a href="index.html">L'Hôtel</a>
+
+                        <ul class="sub_item">
+                            <li>
+                                <a href="hotel/Qui-sommes-nous.html">Présentation</a>
+                            </li>
+                            <li>
+                                <a href="hotel/evenements.html">Évenements</a>
+                            </li>
+                            <li>
+                                <a href="hotel/presse.html">Ils parlent de nous</a>
+                            </li>
+                            <li>
+                                <a href="hotel/recrutement.html">Recrutement</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contactez-nous</a>
+                            </li>
+                            <li>
+                                <a href="hotel/acces.html">Accès</a>
+                            </li>
+                            <li>
+                                <a href="actu.html">Actualités</a>
+                            </li>
+                            <li>
+                                <a href="avis.html">Avis</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu_item">
+                        <a href="index_chambres.html">Hébergement</a>
+
+                        <ul class="sub_item">
+                            <li>
+                                <a href="chambre_classique.html">Chambres classique</a>
+                            </li>
+                            <li>
+                                <a href="chambre_confort.html">Chambres confort</a>
+                            </li>
+                            <li>
+                                <a href="chambre_deluxe.html">Chambres Deluxe</a>
+                            </li>
+
+                            <li>
+                                <a href="chambre_suite.html">Suites</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="menu_item">
+                        <a href="spa.html">Spa</a>
+
+                    </li>
+
+                    <li class="menu_item">
+                        <a href="restaurant.html">Restaurant & Bar</a>
+
+                    </li>
+
+                    <li class="menu_item">
+                        <a href="reservation.html">Reservation</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <!--END HEADER DESKTOP-->
+
+
+    <!--HEADER MOBILE-->
+    <header class="header__mobile">
+        <nav class="nav__mobile">
+
+            <div class="langue__mobile">
+                <a href=""><img src=" https://img.icons8.com/color/48/000000/france-circular.png" alt="logo france"></a>
+                <a href=""><img src="https://img.icons8.com/color/48/000000/great-britain-circular.png"
+                        alt="logo angleterre" /></a>
+            </div>
+
+            <div class="logo1">
+                <a href="index.html"><img class="logo01_mob" src="../images/logo/logo_nb_1.gif"
+                        alt="logo de l'hotel"></a>
+            </div>
+
+            <div id="open" class="container__open">
+                <img src="../images/menu.png" alt="icone menu navigation mobile">
+            </div>
+        </nav>
+
+        <div class="container__menu" id="menu">
+            <div class="container__top">
+                <img src="../images/menu.png" id="close" class="close__menu" alt="icone menu navigation mobile">
+            </div>
+
+            <div class="menu__mobile">
+                <ul>
+                    <li class="menu_item">
+                        <a href="index.html">L'Hôtel</a>
+
+                        <ul>
+                            <li>
+                                <a href="hotel/Qui-sommes-nous.html">Présentation</a>
+                            </li>
+                            <li>
+                                <a href="hotel/evenements.html">Évenements</a>
+                            </li>
+                            <li>
+                                <a href="hotel/presse.html">Ils parlent de nous</a>
+                            </li>
+                            <li>
+                                <a href="hotel/recrutement.html">Recrutement</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contactez-nous</a>
+                            </li>
+                            <li>
+                                <a href="hotel/acces.html">Accès</a>
+                            </li>
+                            <li>
+                                <a href="actu.html">Actualités</a>
+                            </li>
+                            <li>
+                                <a href="avis.html">Avis</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu_item">
+                        <a href="index_chambres.html">Hébergement</a>
+
+                        <ul class="sub_item">
+                            <li>
+                                <a href="chambre_classique.html">Chambres classique</a>
+                            </li>
+                            <li>
+                                <a href="chambre_confort.html">Chambres confort</a>
+                            </li>
+                            <li>
+                                <a href="chambre_deluxe.html">Chambres Deluxe</a>
+                            </li>
+                            <li>
+                                <a href="chambre_suite.html">Suites</a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="menu_item">
+                        <a href="spa.html">Spa</a>
+
+                    </li>
+
+                    <li class="menu_item">
+                        <a href="restaurant.html">Restaurant & Bar</a>
+
+                    </li>
+
+                    <li class="menu_item">
+                        <a href="reservation.html">Reservation</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="panier.html"><i class="fas fa-shopping-basket"></i>Panier</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+    </header>
+
+
+    <div class="row g-0 justify-content-center align-items-center text-center mt-5">
+        <div class="col-sm-12 col-md-8">
+            <h1 class="section-title">CONFORT</h1><br>
+            <div class="text-center para-parimis">
+                <p class="text_just">Les chambres Confort offrent une vue inoubliable sur l'intérieur de l'hôtel ou sur
+                    la ville,
+                    notamment l'avenue Montaigne. La hauteur sous plafond de 3,35 mètres et les immenses fenêtres
+                    ajoutent à l'élégance majestueuse de la pièce. Une palette de tons prune foncé, bleu nuit et gris
+                    crée la toile de fond parfaite pour un intérieur exquis en dégradé de couleurs. Un accueillant
+                    fauteuil rembourré offre un espace confortable propice à la lecture et à la détente.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--DEBUT PRESENTATION GAMME CONFORT-->
+
+
+
+    <div class="row g-0 mt-5 align-items-center text-center">
+
+        <div class="col-md-6">
+            <h2 class="section-title">92m²</h2><br>
+            <div>
+                <p class="text_just"> Située du 3e au 4e étage, avec une vue sur la Tour Eiffel, la chambre Confort opte
+                    pour la sobriété
+                    et le confort d'un mobilier contemporain. Fauteuils et canapés et un lit « king size » et 2 lits
+                    individuels, harmonie, luxe et perfection.
+
+                    En plein pied ou duplex, elle convient parfaitement pour accueillir une famille de 4 personnes.</p>
+
+            </div>
+            <hr>
+            <div class="row justify-content-center">
+                <a class="style-button btn btn-outline-dark btn_03 mb-2" href="reservation.html">Reserver</a>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/chambres/confort/confort_1.jpg" class="img-fluid d-block w-100"
+                            alt="photo chambre confort hotel parimis">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/chambres/confort/confort_2.jpg" class="img-fluid d-block w-100"
+                            alt="photo chambre confort hotel parimis">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/chambres/confort/confort_3.jpg" class="img-fluid d-block w-100"
+                            alt="photo chambre confort hotel parimis">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/chambres/confort/confort_4.jpg" class="img-fluid d-block w-100"
+                            alt="photo chambre confort hotel parimis">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/chambres/confort/confort_5.jpg" class="img-fluid d-block w-100"
+                            alt="photo chambre confort hotel parimis">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <!--FIN ROW-->
+
+    <!--DECOUVREZ NOS AUTRES GAMMES-->
+
+    <div class="row g-0 mt-5 align-items-center">
+        <div class="col-12">
+            <h3 class="section-title">Decouvrez aussi nos autres gammes</h3>
+        </div>
+    </div>
+    <div class="row g-0 mt-5 justify-content-center align-items-center text-center">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <strong>Gamme Deluxe</strong>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><img class="img-fluid" src="../images/chambres/deluxe/deluxe_1.jpg"
+                            alt="photo chambre deluxe hotel parimis">
+                    </div>
+
+                    <a class="btn btn-dark mb-2" href="chambre_deluxe.html">Y
+                        aller</a>
+
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <strong>Gamme Suite</strong>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"><img class="img-fluid" src="../images/chambres/suite/suite_1.jpg"
+                                alt="photo suite hotel parimis">
+                        </div>
+
+
+                        <a class="btn btn-dark mb-2" href="chambre_suite.html">Y
+                            aller</a>
+
+
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                <strong>Gamme Classique</strong>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><img class="img-fluid"
+                                    src="../images/chambres/classique/classic_1.jpg"
+                                    alt="photo chambre classique hotel parimis">
+                            </div>
+
+
+                            <a class="btn btn-dark mb-2" href="chambre_classique.html">Y
+                                aller</a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="scroll_top">
+            <button class="btn_top" id="scrollTopBtn">
+                <i class="fas fa-chevron-circle-up"></i>
+            </button>
+        </div>
+        <!--Pied de page-->
+        <footer>
+
+
+            <!--Reseaux sociaux-->
+            <div class="reseaux">
+                <ul class="logo2">
+                    <li class="facebook">
+                        <a href="https://fr-fr.facebook.com/" target="blank">
+                            <img src="../logo/f_Logo_Online_04_2019/Color/PNG/f_logo_RGB-Blue_58.png"
+                                alt="logo facebook" class="rounded-circle">
+                        </a>
+                    </li>
+
+                    <li class="twitter">
+                        <a href="https://twitter.com/" target="blank">
+                            <img src="../logo/Twitter_Social_Icons/Twitter_Social_Icons/Twitter_SocialIcon_Circle/Twitter_Social_Icon_Circle_Color.png"
+                                alt="logo twitter" class="rounded-circle">
+                        </a>
+                    </li>
+
+                    <li class="pinterest">
+                        <a href="https://www.pinterest.fr/" target="blank">
+                            <img src="../logo/pinterest/RGB/badgeRGB-244px.png" alt="logo pinterest"
+                                class="rounded-circle">
+                        </a>
+
+                    </li>
+
+                    <li class="tripadvisor">
+                        <a href="https://www.tripadvisor.fr/" target="blank">
+                            <img src="../logo/icons8-tripadvisor-96.png" alt="logo tripadvisor" class="rounded-circle">
+                        </a>
+
+                    </li>
+
+                    <li class="instagram">
+                        <a href="https://www.instagram.com/?hl=fr">
+                            <img src="../logo/logo-instagram.png" alt="logo instagram" class="rounded-circle">
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="bas_page">
+
+                <div class="newsletter">
+                    <h2 class="titre">S'inscrire à la newsletter</h2>
+                    <form>
+                        <input id="input" type="email" placeholder="Email" required=""><br>
+
+                        <button id="btn_footer" type="button" class="btn btn-secondary mt-2">S'inscrire</button>
+                    </form>
+                </div>
+
+                <div class="container_infos">
+                    <div class="adresse">
+                        <h2 class="titre">Adresse</h2>
+                        <strong>Parimis Hotel, Restaurant et Spa</strong><br>
+                        <p>1 avenue Montaigne <br>
+                            75008 Paris - France <br>
+                            Tel : +33(1)23 24 25 26 <br>
+                            <a href="hotel/acces.html">Pour accéder à votre hôtel</a>
+                        </p>
+
+
+                    </div>
+                    <div class="liens_utiles">
+                        <h2 class="titre">Liens utiles</h2>
+                        <a href="cgv.html">CGV</a><br>
+                        <a href="mention_legale.html">Mentions Légales</a><br>
+                        <a href="plan_site.html">Plan du site</a><br>
+                        <a href="contact.html">Contact</a><br>
+                        <a href="javascript:window.print()">
+                            <i class="fas fa-print"></i>Imprimer
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <h3 id="titre3">© PARIMIS HOTEL RESTAURANT ET SPA 2021</h3>
+                <P>Ce site n'a aucun but commercial, il est réalisé dans un but pédagogique au seins de
+                    l'organisme de
+                    formation Ifocop</P>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
